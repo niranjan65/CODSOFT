@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                    <img src="./assets/library_icon.png" alt="">
+                    <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticy-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" class="hide" alt="">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-items hide">Explore Premium</button>
+                    <button class="badge nav-items dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-items"></i>
+                </div>
+            </div>
+            
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02ec967aa380d1992f8c76381d" class="card-img" alt="">
+                    <p class="card-title">Hey Ma (with Pitbull & J Balvin feat. Camila Cabello)</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="albums">
+                <div class="album-controls">
+                    <div class="music">
+                        <img src="./assets/card6img.jpeg" alt="" class="music-icon" >
+                    </div>
+                    <div class="album-title">
+                        <p class="album-title-top">Hey Ma (with Pitbull & J</p>
+                        <p class="album-info">Your daily updates</p>
+                    </div>
+                    <div class="album-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <img src="./assets/pip1.png" alt="pip" style="height: 1.4rem;">
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-icons">
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' role='img' height='16' width='16' aria-hidden='true' viewBox='0 0 16 16' data-encore-id='icon' class='Svg-sc-ytk21e-0 haNxPq'%3E%3Cpath d='M11.196 8 6 5v6l5.196-3z' fill='white'/%3E%3Cpath d='M15.002 1.75A1.75 1.75 0 0 0 13.252 0h-10.5a1.75 1.75 0 0 0-1.75 1.75v12.5c0 .966.783 1.75 1.75 1.75h10.5a1.75 1.75 0 0 0 1.75-1.75V1.75zm-1.75-.25a.25.25 0 0 1 .25.25v12.5a.25.25 0 0 1-.25.25h-10.5a.25.25 0 0 1-.25-.25V1.75a.25.25 0 0 1 .25-.25h10.5z' fill='white'/%3E%3C/svg%3E" alt="Modified SVG Image">
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20role='img'%20height='16'%20width='16'%20aria-hidden='true'%20viewBox='0%200%2016%2016'%20data-encore-id='icon'%20class='Svg-sc-ytk21e-0%20haNxPq'%3E%3Cpath%20d='M13.426%202.574a2.831%202.831%200%200%200-4.797%201.55l3.247%203.247a2.831%202.831%200%200%200%201.55-4.797zM10.5%208.118l-2.619-2.62A63303.13%2063303.13%200%200%200%204.74%209.075L2.065%2012.12a1.287%201.287%200%200%200%201.816%201.816l3.06-2.688%203.56-3.129zM7.12%204.094a4.331%204.331%200%201%201%204.786%204.786l-3.974%203.493-3.06%202.689a2.787%202.787%200%200%201-3.933-3.933l2.676-3.045%203.505-3.99z'%20fill='white'%3E%3C/path%3E%3C/svg%3E" alt="Modified SVG Image">
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' role='img' height='16' width='16' aria-hidden='true' viewBox='0 0 16 16' data-encore-id='icon' class='Svg-sc-ytk21e-0 haNxPq'%3E%3Cpath d='M15%2015H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5%202.5%200%200%201%203.5%201h9a2.5%202.5%200%200%201%200%205h-9A2.5%202.5%200%200%201%201%203.5zm2.5-1a1%201%200%200%200%200%202h9a1%201%200%201%200%200-2h-9z' fill='white'/%3E%3C/svg%3E" alt="SVG Image">
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' role='presentation' height='16' width='16' aria-hidden='true' class='Svg-sc-ytk21e-0 haNxPq' viewBox='0 0 16 16' data-encore-id='icon'%3E%3Cpath d='M6%202.75C6%201.784%206.784%201%207.75%201h6.5c.966%200%201.75.784%201.75%201.75v10.5A1.75%201.75%200%200%201%2014.25%2015h-6.5A1.75%201.75%200%200%201%206%2013.25V2.75zm1.75-.25a.25.25%200%200%200-.25.25v10.5c0%20.138.112.25.25.25h6.5a.25.25%200%200%200%20.25-.25V2.75a.25.25%200%200%200-.25-.25h-6.5zm-6%200a.25.25%200%200%200-.25.25v6.5c0%20.138.112.25.25.25H4V11H1.75A1.75%201.75%200%200%201%200%209.25v-6.5C0%201.784.784%201%201.75%201H4v1.5H1.75zM4%2015H2v-1.5h2V15z' fill='white'/%3E%3Cpath d='M13%2010a2%202%200%201%201-4%200%202%202%200%200%201%204%200zm-1-5a1%201%200%201%201-2%200%201%201%200%200%201%202%200z' fill='white'/%3E%3C/svg%3E" alt="SVG Image">
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' role='presentation' height='16' width='16' aria-hidden='true' aria-label='Volume high' id='volume-icon' viewBox='0 0 16 16' data-encore-id='icon' class='Svg-sc-ytk21e-0 haNxPq'%3E%3Cpath d='M9.741.85a.75.75%200%200%201%20.375.65v13a.75.75%200%200%201-1.125.65l-6.925-4a3.642%203.642%200%200%201-1.33-4.967%203.639%203.639%200%200%201%201.33-1.332l6.925-4a.75.75%200%200%201%20.75%200zm-6.924%205.3a2.139%202.139%200%200%200%200%203.7l5.8%203.35V2.8l-5.8%203.35zm8.683%204.29V5.56a2.75%202.75%200%200%201%200%204.88z' fill='white'/%3E%3Cpath d='M11.5%2013.614a5.752%205.752%200%200%200%200-11.228v1.55a4.252%204.252%200%200%201%200%208.127v1.55z' fill='white'/%3E%3C/svg%3E" alt="SVG Image">
+                    <input type="range" min="0" max="100" step="1" class="volume-progress">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
